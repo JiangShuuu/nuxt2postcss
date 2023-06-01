@@ -8,6 +8,14 @@
       rel="stylesheet"
     />
     <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
+      <div class="text-primary border">
+        <p>我我五我ㄛ</p>
+      </div>
+      <div class="test">
+        <div class="test_contain">
+          <p class="test_contain_h1">選我選我</p>
+        </div>
+      </div>
       <a
         class="flex justify-center pt-8 sm:pt-0"
         href="https://nuxtjs.org"
@@ -120,3 +128,14 @@ export default {
   name: 'NuxtTutorial',
 }
 </script>
+
+<style lang="postcss" scoped>
+  .test {
+    &_contain{
+      &_h1 {
+        font-size: 50px;
+        @apply text-primary;
+      }
+    }
+  }
+</style>
