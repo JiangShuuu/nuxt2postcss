@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ani {
+  @apply transition duration-300 ease-in-out;
+}
